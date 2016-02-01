@@ -29,12 +29,12 @@ allprojects {
     }
 }
 
-/*
+
 project(":desktop") {
     apply plugin: 'java'
 
     dependencies {
-        compile project(":core")
+        compile project(":coreapp")
 
         compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
@@ -60,7 +60,7 @@ project(":android") {
     configurations { natives }
 
     dependencies {
-        compile project(":core")
+        compile project(":coreapp")
         compile("com.android.support:support-v4:23.1.1")
         compile("com.android.support:support-v13:23.1.1")
         compile("com.android.support:appcompat-v7:23.1.1")
@@ -103,7 +103,7 @@ project(":android") {
 }
 
 
-project(":core") {
+project(":coreapp") {
     apply plugin: 'java'
 
     dependencies {
@@ -132,4 +132,3 @@ project(":core") {
         compile 'com.google.code.gson:gson:2.5'
     }
 }
-*/

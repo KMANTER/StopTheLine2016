@@ -27,5 +27,31 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="coreapp" exported="" />
+    <orderEntry type="library" exported="" name="gdx-backend-lwjgl-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="gdx-platform-1.7.1-natives-desktop" level="project" />
+    <orderEntry type="library" exported="" name="gdx-box2d-platform-1.7.1-natives-desktop" level="project" />
+    <orderEntry type="library" exported="" name="gdx-dialogs-desktop-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype-platform-1.7.1-natives-desktop" level="project" />
+    <orderEntry type="library" exported="" name="gdx-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="gdx-box2d-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="libgdx-utils-0.13.2" level="project" />
+    <orderEntry type="library" exported="" name="libgdx-utils-box2d-0.13.2" level="project" />
+    <orderEntry type="library" exported="" name="gdx-dialogs-core-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="rxjava-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.5" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl_util-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="jlayer-1.0.1-gdx" level="project" />
+    <orderEntry type="library" exported="" name="jorbis-0.0.17" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-windows" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-linux" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-osx" level="project" />
+    <orderEntry type="library" exported="" name="jinput-2.0.5" level="project" />
+    <orderEntry type="library" exported="" name="jutils-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-linux" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-windows" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-osx" level="project" />
   </component>
 </module>
