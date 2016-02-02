@@ -55,4 +55,8 @@ public class TetrisGame extends Game  {
 
        // setScreen(new FixedFpsScreen(new IntroStage(gameEngine), 30));
     }
+
+    public static GdxUtils gdxUtils() {
+        return ((TetrisGame) Gdx.app.getApplicationListener()).gdxUtils;
+    }
 }
