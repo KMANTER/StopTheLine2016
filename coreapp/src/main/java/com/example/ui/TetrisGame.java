@@ -4,7 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.example.GdxUtils;
-import com.example.screen.FixedFpsScreen;
+import com.example.GameEngine;
 
 import de.tomgrill.gdxdialogs.core.GDXDialogs;
 import de.tomgrill.gdxdialogs.core.GDXDialogsSystem;
@@ -24,7 +24,7 @@ public class TetrisGame extends Game  {
     private GdxUtils gdxUtils;
     private GDXDialogs dialogs;
 
-    //private GameEngine gameEngine;
+    private GameEngine gameEngine;
 
     private boolean playerSignedIn = false;
     private int fightResult = 0;
@@ -44,7 +44,7 @@ public class TetrisGame extends Game  {
         V_WIDTH = (V_HEIGHT * WIDTH) / HEIGHT;
 
         // Our "controller" class
-       // gameEngine = new GameEngine(this, this);
+        gameEngine = new GameEngine();
 
         // First screen, login
         displayIntroScreen();
